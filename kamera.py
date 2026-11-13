@@ -8,7 +8,6 @@ el_modeli = mp_el.Hands(max_num_hands=2, min_detection_confidence=0.7)
 
 uc_noktalar = [8, 12, 16, 20]
 
-# Yazı tipi: istersen cv2.FONT_HERSHEY_COMPLEX veya cv2.FONT_HERSHEY_TRIPLEX dene
 YAZI_TIPI = cv2.FONT_HERSHEY_DUPLEX
 
 # Renkler BGR sırasıyla (OpenCV'de renkler B-G-R yazılır)
