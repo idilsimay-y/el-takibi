@@ -46,6 +46,10 @@ py -3.12 kamera.py
 - OpenCV (kamera, görüntü ve yazı çizimi)
 - Mediapipe 0.10.14 (el algılama)
 
+## Veri seti
+
+Bu projede ayrı bir veri seti kullanılmamıştır. Girdi olarak webcam'den alınan canlı görüntü kullanılır. El algılama için Google'ın önceden eğitilmiş Mediapipe Hands modeli kullanılmıştır.
+
 ## Geliştirme sırasında karşılaşılan sorunlar
 
 - **Python 3.14'te kurulum hata verdi.** Kütüphaneler çok yeni sürümlere henüz uyum sağlamamıştı, bu yüzden Python 3.12 kullanıldı.
